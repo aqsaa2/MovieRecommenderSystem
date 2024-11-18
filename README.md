@@ -35,24 +35,30 @@ pip install -r requirements.txt
    ```bash
    streamlit run app.py
 ## Project Workflow
-1. Data Preparation
-```bash
-Cleaned raw movie data for inconsistencies and missing values.
-Generated a new DataFrame with movie features relevant for recommendations.
-2. Model Creation
-Implemented content-based filtering using vectorized movie features.
-Computed cosine similarity and saved the similarity matrix in similarity.pkl.
-3. Interface Development
-Created a user interface using Streamlit.
-Integrated Flask for seamless backend processing.
-## Dependencies
-Python 3.8+
-Flask
-Streamlit
-Pandas
-NumPy
-Scikit-learn
-Pickle (for saving and loading the similarity matrix)
+
+### **1. Data Preparation**
+- Cleaned raw movie data for inconsistencies and missing values.
+- Generated a new DataFrame with movie features relevant for recommendations.
+
+### **2. Model Creation**
+- Implemented content-based filtering using vectorized movie features.
+- Computed cosine similarity and saved the similarity matrix in `similarity.pkl`.
+
+### **3. Interface Development**
+- Created a user interface using **Streamlit**.
+- Integrated **Flask** for seamless backend processing.
+
+---
+
+## **Dependencies**
+- **Python** 3.8+
+- **Flask**
+- **Streamlit**
+- **Pandas**
+- **NumPy**
+- **Scikit-learn**
+- **Pickle** (for saving and loading the similarity matrix)
+
 
 ## Project Structure
 MovieRecommenderSystem/
@@ -70,6 +76,7 @@ MovieRecommenderSystem/
 ## Examples
 Input: User selects a favorite movie from the list.
 Output: A list of movies similar to the selected one, ranked by similarity score.
+
 ## Future Enhancements
 Integrate additional filtering methods such as collaborative filtering.
 Add support for user ratings and preferences.
