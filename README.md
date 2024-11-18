@@ -61,11 +61,8 @@ pip install -r requirements.txt
 
 ## Project Structure
 MovieRecommenderSystem/
-
  app.py # Main Streamlit app script 
- 
  movie-recommendation-system.ipynb # Jupyter notebook for data preprocessing and model creation 
- 
  movies.pkl # Serialized movies data 
  movies_dict.pkl # Serialized movies dictionary 
  procfile # Heroku deployment configuration 
