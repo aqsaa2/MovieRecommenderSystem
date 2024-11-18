@@ -29,8 +29,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-**Note:** The `similarity.pkl` file is not included in the repository due to file size limitations. Please download it from an external source and place it in the project directory.
-
+**Note:** The `similarity.pkl` file is not included in the repository due to file size limitations.
 1. **Launch the application:**
    ```bash
    streamlit run app.py
@@ -61,17 +60,7 @@ pip install -r requirements.txt
 
 
 ## Project Structure
-MovieRecommenderSystem/
-│
-├── app.py                       # Main Streamlit app script
-├── movie-recommendation-system.ipynb  # Jupyter notebook for data preprocessing and model creation
-├── movies.pkl                   # Serialized movies data
-├── movies_dict.pkl              # Serialized movies dictionary
-├── procfile                     # Heroku deployment configuration
-├── requirements.txt             # List of dependencies
-├── setup.sh                     # Setup script for deployment
-├── README.md                    # Project documentation
-├── .gitignore                   # Git ignore file
+MovieRecommenderSystem/│ ├── app.py # Main Streamlit app script ├── movie-recommendation-system.ipynb # Jupyter notebook for data preprocessing and model creation ├── movies.pkl # Serialized movies data ├── movies_dict.pkl # Serialized movies dictionary ├── procfile # Heroku deployment configuration ├── requirements.txt # List of dependencies ├── setup.sh # Setup script for deployment ├── README.md # Project documentation ├── .gitignore # Git ignore file
 
 ## Examples
 Input: User selects a favorite movie from the list.
