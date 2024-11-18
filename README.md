@@ -60,23 +60,23 @@ pip install -r requirements.txt
 
 
 ## Project Structure
-MovieRecommenderSystem/
-app.py # Main Streamlit app script 
-movie-recommendation-system.ipynb # Jupyter notebook for data preprocessing and model creation 
-movies.pkl # Serialized movies data 
-movies_dict.pkl # Serialized movies dictionary 
-procfile # Heroku deployment configuration 
-requirements.txt # List of dependencies 
+- MovieRecommenderSystem/
+- app.py # Main Streamlit app script 
+- movie-recommendation-system.ipynb # Jupyter notebook for data preprocessing and model creation 
+- movies.pkl # Serialized movies data 
+- movies_dict.pkl # Serialized movies dictionary 
+- procfile # Heroku deployment configuration 
+- requirements.txt # List of dependencies 
 setup.sh # Setup script for deployment 
 README.md # Project documentation 
 .gitignore # Git ignore file
 
 ## Examples
-Input: User selects a favorite movie from the list.
-Output: A list of movies similar to the selected one, ranked by similarity score.
+- Input: User selects a favorite movie from the list.
+- Output: A list of movies similar to the selected one, ranked by similarity score.
 
 ## Future Enhancements
-Integrate additional filtering methods such as collaborative filtering.
-Add support for user ratings and preferences.
-Enhance the UI with more visualizations and interactivity.
+- Integrate additional filtering methods such as collaborative filtering.
+- Add support for user ratings and preferences.
+- Enhance the UI with more visualizations and interactivity.
 
